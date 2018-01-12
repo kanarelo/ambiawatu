@@ -1,0 +1,7 @@
+Django<=1.10
+Django-Bootstrap3
+Django-Countries==5.0
+
+MySQLClient==1.3.12
+Pillow==4.3.0
+Steem

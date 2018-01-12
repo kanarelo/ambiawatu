@@ -1,8 +1,8 @@
 html {
-    font-family: "Open Sans", sans-serif;
     font-size: 13px;
 }
 body {
+    font-family: "Open Sans", sans-serif;
     margin: 15px;
 }
 
@@ -13,7 +13,7 @@ header {
     margin-bottom: 15px;
 }
 header .header-content-holder {
-    margin-top: 90px;
+    margin-top: 80px;
 }
 header .header-content-holder h1 {
     font-family: "Work Sans", sans-serif;
@@ -32,16 +32,18 @@ header .header-content-holder h1 {
 header .header-content-holder p {
     text-align: center;
     font-size: 18px;
-    color: #3F3F3F;
+    color: #7b7b7b;
     letter-spacing: 1.57px;
 }
 header .header-content-holder .form-panel {
     width: 444px;
-    margin: 55px auto;
+    margin: 70px auto 55px;
     min-height: 200px;
     max-height: 500px;
     border: none;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px #e4c914;
+    padding: 5px;
 }
 header .header-content-holder .form-panel .panel-footer .btn-get-started {
     font-weight: 500;
@@ -95,16 +97,31 @@ header .header-content-holder .form-panel .form .form-controls {
     padding-top: 25px;
     padding-bottom: 0px;
 }
-input.form-control {
+header .header-content-holder .form-panel .form input.form-control {
     border-radius: 2px;
     border: 0;
-    background-color: ECECEC;
     box-shadow: none !important;
+    padding-right: 0px;
+}
+header .header-content-holder .form-panel .form input.form-control.steem {
+    background: #ECECEC url('/static/images/steem_logo.png') 98% 50% no-repeat;
+    background-size: 5%;
+}
+header .header-content-holder .form-panel .form input.form-control.kes {
+    background: #ECECEC url('/static/images/kenya_flag.png') 98% 50% no-repeat;
+    background-size: 5%;
 }
 
 .navbar {
     min-height: auto;
     border-radius: 0;
+}
+.navbar #collapsable-menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 38px !important;
+    padding: 10px;
 }
 .navbar-brand {
     height: auto;
@@ -126,10 +143,14 @@ input.form-control {
 .black{
     color: #242424;
 }
+.red {
+    color: #FF0D0D;
+}
 
 section.lower-part {
     height: 520px;
-    background-image: url(/static/images/banner.png);
+    
+    background-image: url("/static/images/banner.png");
     background-repeat: no-repeat;
     background-color: #000;
     background-position: 50%;
@@ -137,5 +158,28 @@ section.lower-part {
 }
 
 .aw_logo {
-    height: 100px;
+    height: 60px;
+    width: 470px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+
+    background-image: url("/static/images/logo_white.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.ticker {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.22px;
+}
+
+.btc.ticker {
+    text-align: right;
+}
+.sbd.ticker {
+    text-align: left;
 }

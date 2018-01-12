@@ -46,11 +46,11 @@ header .header-content-holder .form-panel {
     padding: 5px;
 }
 header .header-content-holder .form-panel .panel-footer .btn-get-started {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     color: #FFFFFF;
     letter-spacing: 1.13px;
-    padding: 10px 25px;
+    padding: 7.5px 30px;
     border: none;
     background-color: #FF3131;
 }
@@ -153,7 +153,7 @@ section.lower-part {
     background-image: url("/static/images/banner.png");
     background-repeat: no-repeat;
     background-color: #000;
-    background-position: 50%;
+    background-position: 50% 0;
     background-size: cover;
 }
 

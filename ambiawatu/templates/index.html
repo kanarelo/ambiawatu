@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block header-content %}
+    <div class="header-content-holder">
+        <div class="container">
+            <div>
+                <h1>Earn cryptocurrency by posting and curating high quality content on Steemit</h1>
+                <p>and then cash the cryptocurrency into Kenya Shillings.</p>
+            </div>
+            <div class="form-panel panel panel-default">
+                <div class="panel-heading">
+                    Service Calculator
+                </div>
+                <div class="panel-body">
+                    <form class="form">
+                        <div class="form-controls">
+                            <div class="sbd form-group">
+                                <label>STEEM BLOCKCHAIN DOLLARS (SBD)</label>
+                                <input class="form-control" type="number" />
+                            </div>
+                            <div class="kes form-group">
+                                <label>KENYA SHILLINGS (KES)</label>
+                                <input class="form-control" type="number" pattern="\d*" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="mobile-money-icons" src="{% static "images/mobile-money-sprite.png" %}" />
+                        </div>
+                        <div class="col-xs-6">
+                            <a class="btn btn-danger btn-get-started pull-right" href="#">GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock header-content %}
+
+{% block content %}
+    <section class="lower-part">
+        <div class="container">
+            <div class="aw_logo"></div>
+        </div>
+    </section>
+{% endblock content %}
+
+{% block footer %}
+{% endblock footer %}

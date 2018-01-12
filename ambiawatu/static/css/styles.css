@@ -1,0 +1,141 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+body {
+    margin: 15px;
+}
+
+header {
+    background-color: #FFE42E;
+    min-height: 500px;
+    padding: 10px 10px 30px;
+    margin-bottom: 15px;
+}
+header .header-content-holder {
+    margin-top: 90px;
+}
+header .header-content-holder h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 55px;
+    color: #000000;
+    letter-spacing: 2.39px;
+    line-height: 60px;
+    font-weight: 900;
+    text-align: center;
+    max-width: 940px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+header .header-content-holder p {
+    text-align: center;
+    font-size: 18px;
+    color: #3F3F3F;
+    letter-spacing: 1.57px;
+}
+header .header-content-holder .form-panel {
+    width: 444px;
+    margin: 55px auto;
+    min-height: 200px;
+    max-height: 500px;
+    border: none;
+    border-radius: 5px;
+}
+header .header-content-holder .form-panel .panel-footer .btn-get-started {
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 1.13px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #FF3131;
+}
+header .header-content-holder .form-panel .panel-footer .btn-get-started:active,
+header .header-content-holder .form-panel .panel-footer .btn-get-started:hover {
+    background-color: #d02121;
+}
+header .header-content-holder .form-panel .panel-footer .mobile-money-icons {
+    height: 35px;
+}
+header .header-content-holder .form-panel .panel-heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.78px;
+    line-height: 35px;
+    
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-bottom-color: #F2F2F2;
+
+    padding: 15px;
+}
+header .header-content-holder .form-panel .panel-footer {
+    padding: 5px 15px 25px;
+    background-color: #ffffff;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+header .header-content-holder .form-panel .form label {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 1.3px;
+}
+header .header-content-holder .form-panel .form .form-group.sbd {
+    margin-bottom: 30px;
+}
+header .header-content-holder .form-panel .form .form-controls {
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+input.form-control {
+    border-radius: 2px;
+    border: 0;
+    background-color: ECECEC;
+    box-shadow: none !important;
+}
+
+.navbar {
+    min-height: auto;
+    border-radius: 0;
+}
+.navbar-brand {
+    height: auto;
+    padding: 10px;
+    color: #888888;
+    font-weight: "Lato", sans-serif;
+    font-weight: 900;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.navbar-brand img {
+    height: 18px;
+}
+.nav>li>a {
+    padding: 10px 0 10px;
+}
+.black{
+    color: #242424;
+}
+
+section.lower-part {
+    height: 520px;
+    background-image: url(/static/images/banner.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.aw_logo {
+    height: 100px;
+}

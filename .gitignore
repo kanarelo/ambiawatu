@@ -169,7 +169,4 @@ GitHub.sublime-settings
 
 # End of https://www.gitignore.io/api/macos,django,python,sublimetext
 
-stdout
-*.log.*
-*.aof
-*.rdb
+static_root/*

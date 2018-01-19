@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_js %}
+<script type="text/javascript">
+    $(function(){
+
+    });
+</script>
+{% endblock extra_js %}
+
 {% block header-content %}
     <div class="header-content-holder">
         <div class="container">
@@ -21,7 +29,7 @@
                             </div>
                             <div class="kes form-group">
                                 <label>KENYA SHILLINGS (KES)</label>
-                                <input class="form-control kes" type="number" pattern="\d*" />
+                                <input class="form-control kes" disabled="disabled" type="number" pattern="\d*" />
                             </div>
                         </div>
                     </form>

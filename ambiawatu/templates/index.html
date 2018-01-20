@@ -4,7 +4,7 @@
 {% block extra_js %}
 <script type="text/javascript">
     $(function(){
-
+        $("")
     });
 </script>
 {% endblock extra_js %}
@@ -25,11 +25,11 @@
                         <div class="form-controls">
                             <div class="sbd form-group">
                                 <label>STEEM BLOCKCHAIN DOLLARS (SBD)</label>
-                                <input class="form-control steem" type="number" />
+                                <input id="sbd-exc" class="form-control steem" type="number" pattern="\d*" />
                             </div>
                             <div class="kes form-group">
                                 <label>KENYA SHILLINGS (KES)</label>
-                                <input class="form-control kes" disabled="disabled" type="number" pattern="\d*" />
+                                <input id="kes-exc" class="form-control kes" disabled="disabled" type="number" pattern="\d*" />
                             </div>
                         </div>
                     </form>
